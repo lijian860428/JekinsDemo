@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					74128FB91C89F3D1003EC44C = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = GR2UGQ575Z;
+						DevelopmentTeam = D5266Q865E;
 					};
 					74128FD21C89F3D1003EC44C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -426,7 +426,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joey Li (72TX8ME6HX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joey Li (72TX8ME6HX)";
 				INFOPLIST_FILE = JekinsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joey.JekinsDemo;
@@ -501,6 +502,7 @@
 				74128FE91C89F3D1003EC44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74128FEA1C89F3D1003EC44C /* Build configuration list for PBXNativeTarget "JekinsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +511,7 @@
 				74128FEC1C89F3D1003EC44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74128FED1C89F3D1003EC44C /* Build configuration list for PBXNativeTarget "JekinsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +520,7 @@
 				74128FEF1C89F3D1003EC44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
